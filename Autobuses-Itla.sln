@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autobuses-Itla", "Autobuses-Itla\Autobuses-Itla.csproj", "{3DA7CD80-9461-4ECF-9C4B-6DC996A62409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA7CD80-9461-4ECF-9C4B-6DC996A62409}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3DA7CD80-9461-4ECF-9C4B-6DC996A62409}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3DA7CD80-9461-4ECF-9C4B-6DC996A62409}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3DA7CD80-9461-4ECF-9C4B-6DC996A62409}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
