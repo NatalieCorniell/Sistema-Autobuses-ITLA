@@ -34,7 +34,7 @@ namespace AutobusesItla
                     case 2:
                         break;
                     default:
-                        Console.WriteLine("\n\n \t Este número de Sección no exite \n\t Verifique su selección .");
+                        Console.WriteLine("\n\n \t Este número de Sección no exite .");
                         Console.ReadKey();
                         MenuPricipal();
                         break;
@@ -110,7 +110,7 @@ namespace AutobusesItla
         {
             Mantenimiento_Autobuses.Show();
         }
-        /* public static void Editar_Autobuses()
+         public static void Editar_Autobuses()
          {
 
              if (Mantenimiento_Autobuses._Bus.Count == 0)
@@ -137,8 +137,8 @@ namespace AutobusesItla
 
                  try
                  {
-                     Mantenimiento_Autobuses _Autobuses = new Mantenimiento_Autobuses(plateNumber, brand, model, capacity);
-                     _Autobuses.Edit_Bus(Mantenimiento_Autobuses._Bus, (index - 1), _Autobuses);
+                    /* Mantenimiento_Autobuses _Autobuses = new Mantenimiento_Autobuses(plateNumber, brand, model, capacity);
+                     _Autobuses.Edit_Bus(Mantenimiento_Autobuses._Bus, (index - 1), _Autobuses);*/
 
 
                      Console.WriteLine("Autobus Editado Con Exito!!");
@@ -154,7 +154,7 @@ namespace AutobusesItla
 
                  Console.WriteLine("\t Producto Editado Con Exito!!");
              }
-         }*/
+         }
         private static void Eliminar_Autobuses()
         {
         }

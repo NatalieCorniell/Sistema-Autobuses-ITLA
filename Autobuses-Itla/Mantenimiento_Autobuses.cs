@@ -51,7 +51,7 @@ namespace AutobusesItla
         }
         public void Edit_Bus(Mantenimiento_Autobuses Bus_List, int index, Mantenimiento_Autobuses newBus)
         {
-          
+            Bus_List[index] = newBus;
         }
 
     }
